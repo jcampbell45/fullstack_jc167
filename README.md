@@ -1,3 +1,7 @@
+# fullstack_jc167
+
+Fullstack Project - i400 Vibe
+
 # Community Classes Full-Stack App
 
 This repository is a full-stack starter for a community classes website.

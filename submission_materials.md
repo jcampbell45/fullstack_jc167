@@ -3,7 +3,7 @@
 ## 1. Validation Video
 This recording demonstrates the system successfully generating an account, viewing the UI, and verifying functionality. Because "Confirm Email" was temporarily disabled on the Supabase project, registration happened seamlessly!
 
-![Validation Video](/Users/jacksoncampbell/.gemini/antigravity/brain/31d54329-a165-4923-98a6-2a9a84ea4733/supabase_validation_video_final_1774455427349.webp)
+![Validation Video](./validation_video.webp)
 
 ---
 

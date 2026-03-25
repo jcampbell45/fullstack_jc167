@@ -1,0 +1,141 @@
+The Domain: Education & Gamification
+The Goal: Assist teachers in motivating first graders to read more and tackle difficult vocabulary.
+
+Core Design Principles for First-Grade Learning
+- Short attention spans (5–10 minutes per activity)
+- Immediate rewards work best
+- Audio + visual learning improves retention
+- Difficulty must scale slowly
+- Mistakes should feel safe and fun
+So the system should feel like a game world, not schoolwork.
+
+1. Student Game Experience (Core of the Product)
+1️⃣ Word Adventure Game
+Children unlock words through gameplay.
+Example mechanics:
+- Character moves through a storybook world
+- To open doors or collect items they must:
+  - Read a word
+  - Match word to picture
+  - Sound out syllables
+
+Example tasks:
+- Match word → picture
+- Fill missing letter
+- Tap syllables
+
+Example words progression:
+cat → hat → bat
+dog → log → frog
+ship → sheep → shell
+
+2️⃣ Hard Word Audio System
+Features:
+- Tap a word → hear it spoken
+- Tap again → hear syllables
+- Tap again → use it in a sentence
+
+Example:
+Word: elephant
+Audio sequence:
+“Elephant”
+“El – e – phant”
+“The elephant walked slowly.”
+This builds phonemic awareness.
+
+3️⃣ Sticker & Reward System
+Possible rewards:
+- Stickers
+- Badges
+- Pets
+- Storybook characters
+- Level worlds
+
+Example progression:
+Read 10 words → Sticker
+Read 50 words → New pet
+Read 100 words → New world
+
+4️⃣ Reading Time Tracker
+Track:
+- minutes reading
+- words completed
+- books finished
+- difficult words mastered
+
+Children could see:
+Today you read for 8 minutes!
+You learned 4 new words!
+
+2. Teacher Dashboard
+Teachers need simple insights, not complicated analytics.
+
+Core teacher features:
+- Class Dashboard
+Shows:
+Student | Reading Time | Words Mastered | Difficulty
+Emma    | 35 min       | 82             | Medium
+Liam    | 18 min       | 34             | Easy
+Noah    | 55 min       | 104            | Hard
+
+Teachers quickly see who is struggling and who is excelling.
+
+- Assignment System
+Teachers can assign specific words, phonics patterns, books, and reading goals.
+Example Assignment: Long vowel sounds (cake, bike, home)
+
+- Struggle Detection
+System automatically detects repeated mistakes and slow progress.
+Suggests recommended practice based on struggles.
+
+3. School Dashboard
+Administrative analytics.
+Track metrics like:
+- Avg Reading Time per class
+- Words Learned per class
+Schools could track improvement over time, engagement levels, and teacher effectiveness.
+
+4. UX Design for 6–7 Year Olds
+Important UX rules:
+- Big Buttons (Large touch targets)
+- Minimal text (Icons and pictures instead)
+- Friendly characters (Mascots help guide learning, e.g., Ollie the Owl)
+- Voice instructions instead of text instructions
+
+5. Gamification System
+Kids should feel like they’re playing, not studying.
+- XP System (+5 XP per read word, +25 XP finish lesson, +100 XP finish book)
+- Level System (Level 1: Letters, Level 2: Simple words, Level 3: Sentences, Level 4: Short books)
+- Story World Progression (Alphabet Forest, Word Castle, Sentence City, Story Island)
+
+6. AI / Smart Features (Optional but powerful)
+- Personalized difficulty: Adjust reading difficulty automatically based on struggles or successes.
+- Smart Word Bank: System builds custom vocabulary lists per student.
+
+7. Parent Features (Optional but Valuable)
+- Parent dashboard to show reading time, new words learned, and books finished to increase home engagement.
+
+8. Simple MVP (What you actually build first)
+A good MVP would include:
+Student Side:
+- One mini reading game
+- Word → picture matching
+- Audio word playback
+- Points + sticker reward
+Teacher Side:
+- Class dashboard
+- Reading time tracking
+- Assign word list
+Admin:
+- Basic reporting
+
+9. Example Tech Stack (Simple)
+- Frontend: React, Phaser.js (for game)
+- Backend: Node / Express, Firebase or Supabase
+- Audio: TTS API
+- Database: Students, Classes, Words, ReadingSessions, Assignments
+
+10. One Unique Idea That Would Stand Out
+“Word Boss Battles”
+Students defeat monsters by reading words.
+Example: Monster HP = 100. Each correct word read → -10 HP. When monster defeated → new book unlocked. This makes reading feel like progress in a game.
